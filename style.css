@@ -264,4 +264,16 @@ nav ul ol {
     padding: 5% 0% ;
 
 }
-/* this is how to comment in css filel*/
+.typewriter h1{
+    white-space: nowrap; /**content in a single line**/
+    animation: typing 3.5s steps(40, end);
+}
+
+@keyframestyping{
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
